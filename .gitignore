@@ -1,0 +1,45 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+service-account*.json
+application_default_credentials.json
+*.sqlite3
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend / build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local/private data and uploads
+private-data/
+real-employee-data/
+salary-slips/
+uploads/
+production-dumps/
+database-dumps/
+# Reference data: storage/management decision pending
+data/mock/vehicle-value-of-use.csv
+
+# Local IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
