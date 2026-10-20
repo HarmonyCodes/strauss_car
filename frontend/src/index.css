@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  direction: rtl;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
+}
